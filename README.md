@@ -56,7 +56,7 @@ It allows users to open, browse, read, write, and manage files and directories w
 
    - BPB_BytesPerSec, BPB_SecPerClus, BPB_NumFATS, BPB_FATSz32, BPB_RootClus, etc.
  
-❌ Error Handling:
+# ❌ Error Handling:
 
 Prints one consistent error message for invalid operations:
 
@@ -81,12 +81,19 @@ Prints one consistent error message for invalid operations:
 make
 
 ## ▶️ Run the Shell
+
 ./mfs
+
 mfs> open fat32.img
+
 mfs> info
+
 mfs> ls
+
 mfs> cd /DIRECTORY
+
 mfs> get file.txt
+
 mfs> quit
 
 # 📊 Example Usage
@@ -111,7 +118,7 @@ mfs> read FILE1.TXT 0 16 -ascii
 Hello FAT32 Shell
 
 
-🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 
 Through this project, I gained hands-on experience in:
 

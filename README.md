@@ -90,6 +90,7 @@ make
    mfs> quit
 
 # 📊 Example Usage
+   
    mfs> open fat32.img
    mfs> info
    BPB_BytesPerSec: 512 (0x200)

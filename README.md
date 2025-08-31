@@ -99,22 +99,34 @@ mfs> quit
 # 📊 Example Usage
    
 mfs> open fat32.img
+
 mfs> info
+
 BPB_BytesPerSec: 512 (0x200)
+
 BPB_SecPerClus: 8 (0x08)
+
 BPB_NumFATS: 2 (0x02)
+
 BPB_FATSz32: 1234 (0x04D2)
+
 BPB_RootClus: 2 (0x02)
 
+
 mfs> ls
+
 .   ..   FILE1.TXT   FILE2.DAT
 
 mfs> stat FILE1.TXT
+
 Size: 1024 bytes
+
 Attributes: ARCHIVE
+
 Cluster Start: 5
 
 mfs> read FILE1.TXT 0 16 -ascii
+
 Hello FAT32 Shell
 
 
